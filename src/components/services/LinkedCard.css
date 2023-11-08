@@ -1,0 +1,13 @@
+.linked-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .linked-card:hover {
+    background-color: #f0f0f0;
+  }
+  

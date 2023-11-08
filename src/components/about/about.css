@@ -1,0 +1,101 @@
+.aboutHome {
+  height: auto;
+}
+.aboutHome #heading {
+  text-align: left;
+  padding: 0;
+}
+.aboutHome .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutHome .right {
+  padding: 80px 50px;
+}
+
+.aboutHome .item h1{
+  text-align: center;
+  font-size: 40px;
+} 
+
+.aboutHome .item{
+  margin-top: 60px;
+}
+
+.aboutHome .mission {
+  background-color: lightblue;
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.aboutHome .img {
+  width: 200px;
+}
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+
+.message h1{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.partition{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    
+}
+
+.photo{
+  height: 300px;
+  background-color: brown;
+  width: 180rem;
+  background-image: url("../../../public/images/awrapper.webp");
+  background-repeat: no-repeat;
+   background-size: cover; 
+  /* background-position: center;  */
+}
+
+.aboutHome .mission:hover {
+  background-color: #023851;
+  color: white;
+  box-shadow: 15px 15px  rgba(22, 3, 3, 0.231);
+}
+
+.info {
+  color: black;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+}
+.text-message {
+  margin-left: 100px;
+  color: #0c0c0c;
+}
+
+.details{
+  font-weight: 600;
+  padding-left:  100px;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .aboutHome .container {
+    flex-direction: column-reverse;
+  }
+
+  .aboutHome .row {
+    width: 100%;
+  }
+   
+  
+
+}
