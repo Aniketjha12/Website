@@ -36,10 +36,15 @@ footer h3 {
   font-weight: 500;
   color: #fcf9f9;
 }
-footer ul li {
+footer ul li  {
   margin-bottom: 20px;
   color: #f6ededcd;
 }
+
+footer ul li a{
+  color: #f6ededcd;
+}
+
 .legal {
   text-align: center;
   padding: 50px 0;
@@ -48,4 +53,8 @@ footer ul li {
 }
 .legal p {
   font-size: 15px;
+}
+
+.last h3{
+  margin-left: 20px;
 }

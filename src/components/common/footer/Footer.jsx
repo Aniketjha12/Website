@@ -1,8 +1,16 @@
 import React from "react"
 import "./footer.css"
+import { Link } from "react-router-dom"
 import Logo from "C:/Proj-Website/Website/src/components/common/header/Logo.png"
 
 const Footer = () => {
+  const scrollToTop = () => {
+    // Scroll to the top of the page smoothly
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
     <>
       
@@ -19,10 +27,11 @@ const Footer = () => {
           <div className='box link'>
             <h3>Explore</h3>
             <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Courses</li>
-              <li>Contact us</li>
+              <li><Link to='/' onClick={scrollToTop}>Home</Link></li>
+              <li><Link to='/About' onClick={scrollToTop}>About Us</Link></li>
+              <li><Link to='/services' onClick={scrollToTop}>Services</Link></li>
+              {/* <li>Courses</li> */}
+              <li><Link to='/Contact' onClick={scrollToTop}>Contact us</Link></li>
             </ul>
           </div>
           
