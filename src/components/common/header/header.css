@@ -3,13 +3,19 @@
   padding: 20px 0;
   color:#fff;
 }
-.logo h1 {
-  font-size: 35px;
-  font-weight: 900;
+.main-heading{
+  line-height: 40px;
 }
 
-.logo h4{
-  color: #1eb2a6;
+.main-heading h1 {
+  font-size: 35px;
+  font-weight: 900;
+  color: rgb(248, 70, 105);
+}
+
+.main-heading h4{
+  color: rgb(103, 196, 243);
+  font-size: 20px;
 }
 
 .head .icon {
@@ -18,7 +24,7 @@
 /*--------head------------*/
 /*--------header------------*/
 header {
-  background-color:rgba(255, 255, 255, 0.297);
+  background-color:rgba(255, 255, 255, 0.137);
   margin: 0 30px;
 }
 header .nav {
@@ -85,7 +91,7 @@ header li{
     top: 7vh;
     left: 0;
     width: 100%;
-    background-color: #1eb2a6;
+    background-color: #159bee;
   }
   
 }

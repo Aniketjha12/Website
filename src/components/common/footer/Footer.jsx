@@ -1,25 +1,15 @@
 import React from "react"
 import "./footer.css"
+import Logo from "C:/Proj-Website/Website/src/components/common/header/Logo.png"
 
 const Footer = () => {
   return (
     <>
-      {/* <section className='newletter'>
-        <div className='container flexSB'>
-          <div className='left row'>
-            <h1>Newsletter - Stay tune and get the latest update</h1>
-            <span>Far far away, behind the word mountains</span>
-          </div>
-          <div className='right row'>
-            <input type='text' placeholder='Enter email address' />
-            <i className='fa fa-paper-plane'></i>
-          </div>
-        </div>
-      </section> */}
+      
       <footer>
         <div className='container padding'>
           <div className='box logo'>
-            <h1>RACE OF ADVANCE COMPUTING & EDUCATION</h1>
+            <h1><img src={Logo} alt="Company Logo" className="logo_img"/></h1>
             <span>Leading provider of Technical Training</span>
 
             <i className='fab fa-facebook-f icon'></i>

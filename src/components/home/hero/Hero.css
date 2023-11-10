@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../../../public/images/bg.jpg");
+  background-image: url("../../../../public/images/backg.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -13,13 +13,30 @@
   color:#fff;
 }
 .hero #heading h3 {
-  color:#fff;
+  color:rgb(103, 196, 243);
+  font-size: 30px;
+  /* color:rgb(120, 223, 176); */
+  font-weight: 900;
 }
+
+.hero #heading h1 {
+  /* color:rgba(116, 247, 247, 0.947); */
+  font-size: 32px;
+  margin-top: 50px;
+  font-family:sans-serif;
+}
+
 .hero #heading {
   text-align: left;
   margin: 0;
   padding: 0;
 }
+
+.hero h4{
+  font-size: 18px;
+  color:rgba(218, 226, 233, 0.82)
+}
+
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;

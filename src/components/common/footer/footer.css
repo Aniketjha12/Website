@@ -1,6 +1,13 @@
 footer {
   background-color: #080505;
 }
+
+.logo_img{
+  /* height: 30%; */
+  width: 50%;
+  margin-left: 60px;
+}
+
 footer .container {
   display: grid;
   grid-template-columns: 40fr 20fr 20fr 10fr 5fr;
