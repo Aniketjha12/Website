@@ -1,7 +1,7 @@
 import React from "react"
 import "./footer.css"
 import { Link } from "react-router-dom"
-import Logo from "C:/Proj-Website/Website/src/components/common/header/Logo.png"
+import Logo from "C:/GitHub Projects/Website/src/components/common/header/Logo.png"
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -18,11 +18,15 @@ const Footer = () => {
         <div className='container padding'>
           <div className='box logo'>
             <h1><img src={Logo} alt="Company Logo" className="logo_img"/></h1>
+            <div className="test">
             <span>Leading provider of Technical Training</span>
-
+            </div>
+          </div>
+          <div className="icons">
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-twitter icon'></i>
             <i className='fab fa-instagram icon'></i>
+            <i className='fab fa-youtube icon'></i>
           </div>
           <div className='box link'>
             <h3>Explore</h3>

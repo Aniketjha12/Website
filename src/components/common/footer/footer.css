@@ -13,6 +13,27 @@ footer .container {
   grid-template-columns: 40fr 20fr 20fr 10fr 5fr;
   grid-gap: 30px;
 }
+
+footer .test {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -80px;
+}
+footer .icons {
+  display: flex;
+  padding-top: 100px;
+  
+}
+
+.link {
+  
+  padding-top: 37px;
+}
+
+.last {
+  padding-top: 37px;
+}
+
 @media screen and (max-width: 768px) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
