@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from "react"
 import "./Cards.css"
+// import Project from './ProjectCard'
 
 export const Card = () => {
   const [cards] = useState([
@@ -41,6 +42,7 @@ export const Card = () => {
           </div>
         </div>
       </section>
+      {/* <Project/> */}
     </div>
   );
 }
