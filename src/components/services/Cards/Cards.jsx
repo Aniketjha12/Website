@@ -2,13 +2,12 @@ import React from 'react'
 import { useState } from "react"
 import "./Cards.css"
 
-
 export const Card = () => {
   const [cards] = useState([
     {
       title: "Courses",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar purus nunc, sit amet auctor sem aliquam et. Nunc vulputate varius magna in convallis. Vestibulum non sem interdum nibh eleifend pellentesque quis nec purus. Ut sit amet elit id nisl sollicitudin",
-       image: "../images/about.jpg"
+      image: "../images/about.jpg"
     },
   
     {
