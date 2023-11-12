@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from "C:/Proj-Website/Website/src/components/common/header/Logo.png";
+import Logo from "../header/Logo.png"
 import "./header.css"
 const Head = () => {
   return (
