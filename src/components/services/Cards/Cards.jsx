@@ -1,8 +1,7 @@
 import React from 'react'
 import { useState } from "react"
 import "./Cards.css"
-import ClientsCard from './ClientsCard';
-import Project from './ProjectCard'
+// import Back from "../common/back/Back"
 import { useHistory } from 'react-router-dom';
 
 export const Card = () => {
@@ -26,30 +25,30 @@ export const Card = () => {
        image: "../images/about.jpg"
     },
   ]);
-  const handleExploreClick = () => {
+  const handleExploreClick = (index) => {
     // Navigate to the '/project' route when the "Explore" button is clicked
-    history.push('/project');
+    const routes = ['/CoursesCard', '/ProjectCard', '/ClientsCard'];
+    history.push(routes[index]);
   };
   return (
     <div>
+      {/* <Back title="Cards" /> */}
       <section>
         <div className='card-container'>
           <h1>Our Services</h1>
           <div className='cards'>
             {
               cards.map((card,i)=>(
-                <div className='card'>
+                <div className='card' key={i}>
                   <div className='card-heading'><h2>{card.title}</h2></div>
                   <div className='img-container'><img src={card.image} alt=''/></div>
                   <div className='card-text'><p>{card.description}</p></div>
-                  <div className='explore-btn'><button onClick={handleExploreClick}>Explore</button></div>
+                  <div className='explore-btn'><button onClick={() => handleExploreClick(i)}>Explore</button></div>
                 </div>
             ))}
           </div>
         </div>
-        <ClientsCard/>
       </section>
-      <Project/>
     </div>
   );
 }
