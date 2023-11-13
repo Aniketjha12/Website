@@ -57,8 +57,7 @@
 .card .img-container img{
   overflow: hidden;
   height: 200px;
-  width: 200px;                  /*  not working */
-  border: 1px solid black;
+  width: 200px;                 
 }
 
 .card .img-container{
