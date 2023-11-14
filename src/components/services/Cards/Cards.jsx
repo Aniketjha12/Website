@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from "react"
 import "./Cards.css"
-// import Back from "../common/back/Back"
 import { useHistory } from 'react-router-dom';
 
 export const Card = () => {
@@ -32,7 +31,7 @@ export const Card = () => {
   };
   return (
     <div>
-      {/* <Back title="Cards" /> */}
+    
       <section>
         <div className='card-container'>
           <h1>Our Services</h1>
