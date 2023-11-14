@@ -3,6 +3,21 @@
   transition: 0.5s;
 }
 
+.testimonal #heading h3 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: lightskyblue;
+  text-transform: uppercase;
+}
+
+.testimonal #heading h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: rgb(228, 143, 143);
+}
+
 .testimonal .img {
   position: relative;
 }
