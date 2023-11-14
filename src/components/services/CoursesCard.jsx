@@ -1,8 +1,12 @@
 import React from "react"
 import "./courses.css"
 import { coursesCard } from "../../dummydata"
+import { useEffect } from 'react';
 
 const CoursesCard = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <section className='coursesCard'>

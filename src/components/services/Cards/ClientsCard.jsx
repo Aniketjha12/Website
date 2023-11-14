@@ -1,6 +1,10 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import { useEffect } from 'react';
 export const ClientsCard = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <section className="clients"></section>
