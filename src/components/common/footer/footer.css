@@ -3,21 +3,21 @@ footer {
 }
 
 .logo_img{
-  /* height: 30%; */
   width: 50%;
   margin-left: 60px;
 }
 
 footer .container {
   display: grid;
-  grid-template-columns: 40fr 20fr 20fr 10fr 5fr;
+  grid-template-columns: 20fr 0fr 10fr 10fr 15fr;
   grid-gap: 30px;
 }
 
 footer .test {
   display: flex;
   justify-content: space-around;
-  margin-left: -80px;
+  margin-left: -450px; 
+  margin-top: 200px;
 }
 footer .icons {
   display: flex;
@@ -34,20 +34,16 @@ footer .icons {
   padding-top: 37px;
 }
 
-@media screen and (max-width: 768px) {
-  footer .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-footer .logo span {
+footer .test span {
   color: #53f2f2;
   font-size: 20px;
 }
-footer .logo h1 {
+
+/* footer .logo h1 {
   color: rgb(234, 234, 96);
   margin: 30px 0 15px 0;
-}
-footer .logo .icon {
+} */
+footer .icon {
   background-color: #181ff5;
   color: rgb(255, 255, 255);
   margin-right: 10px;
@@ -78,4 +74,39 @@ footer ul li a{
 
 .last h3{
   margin-left: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  footer .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .container {
+    grid-template-columns: 3fr 1fr 1fr 1fr 2fr ;
+  }
+
+  .logo_img {
+    width: 100%;
+    margin-top: 5rem;
+    margin-left: 60px;
+  }
+
+  .test span{
+    margin-left: 400px;
+    margin-top: 0px;    
+  }
+
+  .icons {
+    padding-top: 0;
+    justify-content: center;
+  }
+
+  .link,
+  .last {
+    text-align: center;
+    padding-top: 20px;
+  } 
 }
