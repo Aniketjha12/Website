@@ -1,21 +1,4 @@
 
-export const servicescard = [
-  {
-    title: "Courses",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar purus nunc, sit amet auctor sem aliquam et. Nunc vulputate varius magna in convallis. Vestibulum non sem interdum nibh eleifend pellentesque quis nec purus. Ut sit amet elit id nisl sollicitudin"
-  },
-
-  {
-    title: "Projects",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar purus nunc, sit amet auctor sem aliquam et. Nunc vulputate varius magna in convallis. Vestibulum non sem interdum nibh eleifend pellentesque quis nec purus. Ut sit amet elit id nisl sollicitudin"
-  },
-  
-  {
-    title: "Clients",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar purus nunc, sit amet auctor sem aliquam et. Nunc vulputate varius magna in convallis. Vestibulum non sem interdum nibh eleifend pellentesque quis nec purus. Ut sit amet elit id nisl sollicitudin"
-  },
-]
-
 export const coursesCard = [
   {
     id: 1,
@@ -26,7 +9,7 @@ export const coursesCard = [
   {
     id: 2,
     cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+    coursesName: "Enhancing Adobe Photoshop Skills",
     
   },
   {
@@ -44,35 +27,124 @@ export const coursesCard = [
   {
     id: 5,
     cover: "../images/courses/c5.png",
-    coursesName: "Introducing to Programming with ReactJS",
+    coursesName: "Programming with ReactJS",
    
     
   },
   {
     id: 6,
     cover: "../images/courses/c6.png",
-    coursesName: "Learn Frontend Programming Language",
+    coursesName: "Learn Frontend Development",
     
     
   },
   {
     id: 7,
     cover: "../images/courses/c7.png",
-    coursesName: "Introducing to with HTML / CSS",
+    coursesName: "Learning HTML,CSS Basic to advance level",
    
       },
   {
     id: 8,
     cover: "../images/courses/c8.png",
-    coursesName: "Introducing to with JAVA",
+    coursesName: "Introducing with JAVA",
     
   },
   {
     id: 9,
     cover: "../images/courses/c9.png",
-    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    coursesName: "Web Designing and Development",
 
       },
+      {
+        id: 10,
+        cover: "../images/courses/online/o2.1.png",
+        coursesName: "Graphic Designing",
+    
+      },
+      {
+        id: 11,
+        cover: "../images/courses/online/o1.1.png",
+        coursesName: "Android App Development using Android Studio ",
+      },
+      {
+        id: 12,
+        cover: "../images/courses/online/o9.1.png",
+        coursesName: "Python with DJango",
+            
+      },
+      {
+        id: 13,
+        cover: "../images/courses/online/o9.1.png",
+        coursesName: "Python with Machine Learing",
+            
+      },
+      {
+        id: 14,
+        cover: "../images/courses/online/o9.1.png",
+        coursesName: "Python with Artificial Intelligence",
+            
+      },
+      {
+        id: 15,
+        cover: "../images/courses/online/o3.1.png",
+        coursesName: "Ethical Hacking",
+            
+      },
+      {
+        id: 16,
+        cover: "../images/courses/online/o6.1.png",
+        coursesName: "Data Science",
+            
+      },
+      {
+        id: 17,
+        cover: "../images/courses/online/o12.1.png",
+        coursesName: "Advance Excel",
+            
+      },
+      {
+        id: 18,
+        cover: "../images/courses/online/o5.1.png",
+        coursesName: "Development using Angular JS",
+            
+      },
+      {
+        id: 19,
+        cover: "../images/courses/online/o4.1.png",
+        coursesName: "Introducing with JQuery",
+            
+      },
+      {
+        id: 20,
+        cover: "../images/courses/online/o8.1.png",
+        coursesName: "Development using PHP",
+            
+      },
+      {
+        id: 21,
+        cover: "../images/courses/online/o6.1.png",
+        coursesName: "Knowing about Dot Net (Basic to Advance)",
+            
+      },
+      {
+        id: 22,
+        cover: "../images/courses/online/o7.1.png",
+        coursesName: "Learning SQL Database",
+            
+      },
+      {
+        id: 23,
+        cover: "../images/courses/online/o11.1.png",
+        coursesName: "BTech Computer Science Subjects",
+            
+      },
+      {
+        id: 24,
+        cover: "../images/courses/online/o11.1.png",
+        coursesName: "MBA Subjects(HR, IT, Management etc.)",
+            
+      }
 ]
 export const online = [
   {

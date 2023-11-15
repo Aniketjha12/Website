@@ -1,9 +1,4 @@
 .homeAbout #heading h3 {
-  /* font-size: 25px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: lightskyblue;
-  text-transform: uppercase; */
   display: none;
 }
 
@@ -26,6 +21,7 @@
 .coursesCard .items:hover{
   background-color: lightcoral;
   color: rgb(5, 5, 107);
+  cursor: pointer;
 }
 
 .coursesCard .img {
