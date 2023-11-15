@@ -25,14 +25,15 @@ export const Card = () => {
        image: "../images/about.jpg"
     },
   ]);
+  
   const handleExploreClick = (index) => {
-    // Navigate to the '/project' route when the "Explore" button is clicked
     const routes = ['/CourseHome', '/ProjectCard', '/ClientsCard'];
     history.push(routes[index]);
   };
+
+
   return (
     <div>
-      {/* <Back title="Cards" /> */}
       <section>
         <div className='card-container'>
           <h1>Our Services</h1>
