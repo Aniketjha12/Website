@@ -9,7 +9,7 @@ import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
 import Services from "./components/services/Services";
 import ProjectCard from "./components/services/Cards/ProjectCard";
-import CourseHome from "./components/services/CourseHome";
+import CourseHome from "./components/services/Cards/CourseHome";
 import ClientsCard from "./components/services/Cards/ClientsCard";
 
 
