@@ -1,12 +1,15 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import { useEffect } from 'react';
+import Back from '../../common/back/Back'
+
 export const ClientsCard = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <>
+    <Back title='Our Clients' />
     <section className="clients"></section>
     <div>
         <h1>Our Indian Clients</h1>

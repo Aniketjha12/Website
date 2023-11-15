@@ -1,6 +1,7 @@
 import React from 'react'
 import "./ProjectCard.css"
 import { useEffect } from 'react';
+import Back from '../../common/back/Back'
 
 
 export const ProjectCard = () => {
@@ -9,7 +10,9 @@ export const ProjectCard = () => {
   }, []);
   return (
     <>
+    <Back title='Our Projects' />
     <section className="pro-page">
+    
         <div className="project">
        
         <h1>PROJECTS</h1>

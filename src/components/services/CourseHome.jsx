@@ -1,12 +1,12 @@
 import React from "react"
-// import Back from "../common/back/Back"
+import Back from "../common/back/Back"
 import CoursesCard from "./CoursesCard"
 import HAbout from "./HAbout"
 
 const CourseHome = () => {
   return (
     <>
-      {/* <Back title='Explore Courses' /> */}
+      <Back title='Our Courses' /> 
       <HAbout />
       <CoursesCard />
     </>

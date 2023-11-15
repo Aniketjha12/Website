@@ -27,7 +27,7 @@ export const Card = () => {
   ]);
   const handleExploreClick = (index) => {
     // Navigate to the '/project' route when the "Explore" button is clicked
-    const routes = ['/CoursesCard', '/ProjectCard', '/ClientsCard'];
+    const routes = ['/CourseHome', '/ProjectCard', '/ClientsCard'];
     history.push(routes[index]);
   };
   return (
