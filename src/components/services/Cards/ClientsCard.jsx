@@ -1,14 +1,142 @@
-import React from 'react'
-import {Link} from "react-router-dom"
-export const ClientsCard = () => {
+import React from "react";
+import Image1 from "../Cards/Acc_Logo_Black_Purple_RGB.png"
+import Image2 from "../Cards/target.png"
+import Image3 from "../Cards/Screenshot 2023-11-14 231000.png"
+import Image4 from "../Cards/image4.png"
+import Image5 from "../Cards/image5.png"
+import Image6 from "../Cards/image6.png"
+import Image7 from "../Cards/target.png"
+import Image8 from "../Cards/target.png"
+import Image9 from "../Cards/target.png"
+import Image10 from "../Cards/target.png"
+import Image11 from "../Cards/target.png"
+import Image12 from "../Cards/target.png"
+import Image13 from "../Cards/target.png"
+import Image14 from "../Cards/target.png"
+import Image15 from "../Cards/target.png"
+const ImageLink = () => {
   return (
     <>
-    <section className="clients"></section>
-    <div>
-        <h1>Our Indian Clients</h1>
-    <Link to="https://www.google.com/search?q=goo&rlz=1C1RXQR_enIN1082IN1082&oq=goo&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTILCAEQRRgnGDsYigUyCQgCECMYJxiKBTIVCAMQLhhDGIMBGMcBGLEDGNEDGIoFMg8IBBAAGEMYgwEYsQMYigUyDAgFEAAYQxixAxiKBTIJCAYQABhDGIoFMgwIBxAAGEMYsQMYigUyDwgIEC4YQxivARjHARiKBTIMCAkQABhDGLEDGIoF0gEKMTM5ODVqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fimage&psig=AOvVaw17bpraXcRfedq8oKx0R7E0&ust=1699943932138000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCA4-SuwIIDFQAAAAAdAAAAABAH" alt="logo" /></Link>
-    </div>
-    </>
-  )
-}
-export default ClientsCard;
+    <a href="https://www.accenture.com/in-en" target="_blank" rel="noopener noreferrer">
+      <img
+        src= {Image1}
+        alt="COMPANY LOGO"
+        
+      />
+    </a>
+    <a href="https://india.target.com/" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image2}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+    <a href="https://www.cognizant.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image3}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.itchotels.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image4}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.dell.com/en-in" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image5}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.mbrdi.co.in/#/" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image6}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.cognizant.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image7}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.cognizant.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image8}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.cognizant.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image9}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.cognizant.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image10}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.cognizant.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image11}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.cognizant.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image12}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.cognizant.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image13}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.cognizant.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image14}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+
+  <a href="https://www.cognizant.com/in/en" target="_blank" rel="noopener noreferrer">
+    <img
+      src= {Image15}
+      alt="COMPANY LOGO"
+      
+    />
+  </a>
+  </>
+  );
+};
+
+export default ImageLink;
