@@ -1,0 +1,120 @@
+.aboutHome {
+  height: auto;
+}
+.aboutHome #heading {
+  text-align: left;
+  padding: 0;
+}
+
+.aboutHome #heading h3 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: lightskyblue;
+  text-transform: uppercase;
+}
+
+.aboutHome #heading h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: rgb(248, 70, 105);
+}
+
+.aboutHome .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutHome .right {
+  padding: 80px 50px;
+}
+
+.aboutHome .item h1{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(228, 143, 143);
+} 
+
+.aboutHome .item{
+  margin-top: 60px;
+}
+
+.aboutHome .mission {
+  background-color: lightblue;
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.aboutHome .img {
+  width: 200px;
+}
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+
+.message h1{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  color:  rgb(228, 143, 143);
+}
+
+.partition{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    
+}
+
+.photo{
+  height: 300px;
+  background-color: brown;
+  width: 180rem;
+  background-image: url("../../../public/images/awrapper.webp");
+  background-repeat: no-repeat;
+   background-size: cover; 
+  /* background-position: center;  */
+}
+
+.aboutHome .mission:hover {
+  background-color: #023851;
+  color: white;
+  box-shadow: 15px 15px  rgba(128, 119, 119, 0.694);
+}
+
+/* .info {
+  color: black;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+} */
+.text-message {
+  margin-left: 100px;
+  color: rgba(8, 170, 182, 0.984);
+}
+
+.details{
+  font-weight: 600;
+  padding-left:  100px;
+  margin-top: 35px;
+  color:  rgb(228, 143, 143);
+}
+
+@media screen and (max-width: 768px) {
+  
+  .aboutHome .container {
+    flex-direction: column-reverse;
+  }
+
+  .aboutHome .row {
+    width: 100%;
+  }
+   
+  
+
+}

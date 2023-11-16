@@ -1,0 +1,72 @@
+.card-container {
+  padding: 0px;
+}
+
+.card-container h1{
+   font-size: 45px;
+   color: #b2541e;
+   text-align: center;
+}
+
+.cards{
+ padding: 20px;
+ color: rgb(8, 0, 0);
+}
+
+.card{
+  border : 1px solid blue;
+  width: 400px;
+  overflow: hidden;
+  box-shadow: 0px 0px 25px -5px;
+  transition: 0.3s;
+  animation: ease-in;
+  padding: 40px;
+  margin: auto;
+  margin-top: 45px;
+  background-color: lightblue;
+}
+
+.card:hover{
+  transform: scale(1,1);
+  box-shadow: 0px 0px 25px 0px;
+  background-color:#023851;
+  color: white; 
+}
+
+.card .explore-btn{
+  text-align: center;
+}
+
+.card .explore-btn button{
+  background-color: #5c2caad0;   /*color chng*/
+  color: white;
+  border: 0px;
+  
+}
+
+.card .explore-btn button:hover{
+  background-color: #d1167df1;
+  color: rgb(14, 1, 1);
+  
+}
+
+.card h2{
+  text-align: center;
+}
+
+.card .img-container img{
+  overflow: hidden;
+  height: 200px;
+  width: 200px;                 
+}
+
+.card .img-container{
+  text-align: center;
+  margin: 18px;
+}
+
+.card .card-text{
+  text-align: center;
+  padding: 5px;
+}
+

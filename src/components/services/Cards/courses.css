@@ -1,0 +1,53 @@
+.homeAbout #heading h3 {
+  display: none;
+}
+
+.homeAbout #heading h1 {
+  font-size: 55px;
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: lightcoral;
+}
+
+.coursesCard {
+  padding: 50px 0;
+}
+.coursesCard .items {
+  background-color: #f1cccc;
+  background-color: #f1cccc;
+  padding: 30px;
+  text-align: center;
+}
+
+.coursesCard .items:hover{
+  background-color: lightcoral;
+  color: rgb(5, 5, 107);
+  cursor: pointer;
+}
+
+.coursesCard .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #1e4db2;
+  background-color: #1e4db2;
+  padding: 15px;
+}
+.coursesCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coursesCard .text h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  margin-left: 15px;
+  text-align: left;
+  margin-left: 15px;
+  text-align: left;
+}
+
+
+@media screen and (max-width: 768px) {
+}
