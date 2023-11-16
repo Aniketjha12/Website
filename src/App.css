@@ -93,21 +93,20 @@ p {
   height: 100vh;
   padding-top: 30%;
   padding-right: 50px;
-  color: rgb(13, 162, 207);
+  color: rgba(144, 232, 209, 0.998);
   text-align: center;
 }
+
 .back h1 {
   font-size: 100px;
-  font-weight: 400;
+  font-weight: 600;
 }
-.back h2 {
-  font-weight: 500;
-  font-size: 17px;
-  text-transform: uppercase;
-}
+
 .margin {
   margin-top: 40.3%;
 }
+
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
