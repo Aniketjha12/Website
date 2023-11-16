@@ -1,0 +1,67 @@
+.ITclients {
+  padding: 40px;
+  text-align: center;
+  background-color: lightskyblue;
+}
+
+.ITclients img {
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ITclients img:hover {
+  transform: scale(1.1);
+}
+
+.ITclients h1 {
+  color: rgb(4, 63, 99);
+  margin-bottom: 35px;
+  font-size: 50px;
+  font-weight: 900;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: scaleFadeIn 1s ease-in-out forwards;
+}
+
+.clients {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: rgba(14, 14, 14, 0.806);
+  padding: 20px;
+}
+
+.clients a {
+  display: block;
+}
+
+.clients img {
+  width: 100%;
+}
+
+.cli-page {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+@keyframes scaleFadeIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

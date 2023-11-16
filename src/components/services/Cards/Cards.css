@@ -70,34 +70,4 @@
   padding: 5px;
 }
 
-/* Add this to your existing CSS file or create a new one */
 
-.Iclients,
-.ITclients {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.Iclients img,
-.ITclients img {
-  max-width: 100%;
-  height: auto;
-  margin: 10px; /* Adjust the margin as needed */
-}
-
-/* Optional: Style for the scroll-to-top button */
-.scroll-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  display: none;
-}
-
-.scroll-to-top:hover {
-  background-color: #0056b3;
-}

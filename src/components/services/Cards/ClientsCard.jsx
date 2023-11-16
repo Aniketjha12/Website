@@ -1,4 +1,6 @@
 import React from "react";
+import "./ClientsCard.css";
+
 import Back from "../../common/back/Back"
 import Image1 from "../Cards/Acc_Logo_Black_Purple_RGB.png"
 import Image2 from "../Cards/target.png"
@@ -23,12 +25,12 @@ import Image20 from "../Cards/image20.png"
 const ImageLink = () => {
   return (
     <>
-<<<<<<< HEAD
-    <div className="Iclients">
-    <h1>INDIAN CLLIENTS</h1>
-=======
-    <Back title='Our Clients' /> 
->>>>>>> 5d6dbf886e9d5201aaeeffb2b9e4e5b18352dc29
+    <Back title='Our Clients' />
+    <div className="cli-page">
+    <div className="ITclients">
+    <h1>INDIAN CLIENTS</h1>
+    <div className="clients">
+    
     <a href="https://www.accenture.com/in-en" target="_blank" rel="noopener noreferrer">
       <img
         src= {Image1}
@@ -36,6 +38,7 @@ const ImageLink = () => {
         
       />
     </a>
+
     <a href="https://india.target.com/" target="_blank" rel="noopener noreferrer">
     <img
       src= {Image2}
@@ -147,10 +150,16 @@ const ImageLink = () => {
       
     />
   </a>
+
+  </div>
   </div>
 
+
+
+
   <div className="ITclients">
-    <h1>INTERNATIONAL CLLIENTS</h1>
+    <h1>INTERNATIONAL CLIENTS</h1>
+    <div className="clients">
     <a href="https://www.mbc.net/" target="_blank" rel="noopener noreferrer">
       <img
         src= {Image16}
@@ -190,6 +199,9 @@ const ImageLink = () => {
     />
   </a>
   </div>
+  </div>
+  </div>
+
   </>
   );
 };
