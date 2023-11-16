@@ -1,6 +1,6 @@
 import React from "react";
 import "./ClientsCard.css";
-
+import { useEffect } from 'react';
 import Back from "../../common/back/Back"
 import Image1 from "../Cards/Acc_Logo_Black_Purple_RGB.png"
 import Image2 from "../Cards/target.png"
@@ -23,6 +23,9 @@ import Image18 from "../Cards/image18.png"
 import Image19 from "../Cards/image19.png"
 import Image20 from "../Cards/image20.png"
 const ImageLink = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <Back title='Our Clients' />
