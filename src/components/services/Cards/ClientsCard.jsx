@@ -1,4 +1,5 @@
 import React from "react";
+import Back from "../../common/back/Back"
 import Image1 from "../Cards/Acc_Logo_Black_Purple_RGB.png"
 import Image2 from "../Cards/target.png"
 import Image3 from "../Cards/Screenshot 2023-11-14 231000.png"
@@ -17,6 +18,7 @@ import Image15 from "../Cards/target.png"
 const ImageLink = () => {
   return (
     <>
+    <Back title='Our Clients' /> 
     <a href="https://www.accenture.com/in-en" target="_blank" rel="noopener noreferrer">
       <img
         src= {Image1}
